@@ -624,5 +624,8 @@ game.onUpdateInterval(2000, function () {
     }
 })
 game.onUpdate(function () {
-    info.setScore(FlyingMissiles)
+    game.setGameOverMessage(false, "You Died")
+    if (AmmountofTurrets <= 0) {
+        game.gameOver(false)
+    }
 })
