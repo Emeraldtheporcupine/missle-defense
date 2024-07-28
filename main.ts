@@ -738,5 +738,8 @@ game.onUpdate(function () {
     if (AmmountofTurrets <= 0) {
         music.stopAllSounds()
         game.gameOver(false)
+    } else if (AmmountofTurrets == 1) {
+        music.stopAllSounds()
+        music.play(music.createSong(assets.song`bumbadeeedum0`), music.PlaybackMode.LoopingInBackground)
     }
 })
