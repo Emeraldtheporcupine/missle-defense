@@ -1016,7 +1016,7 @@ game.onUpdateInterval(2000, function () {
     [img`
         2 2 . . . . . . 
         . 2 2 2 . . . . 
-        . 2 4 4 2 . . . 
+        . 4 4 4 . . . . 
         . . 2 4 5 b b . 
         . . 2 5 b c b b 
         . . 2 b b b b b 
@@ -1024,18 +1024,18 @@ game.onUpdateInterval(2000, function () {
         . . . . . b b . 
         `,img`
         2 . . . . . . . 
-        . 4 2 2 . . . . 
+        . 4 4 2 . . . . 
         . 2 4 4 2 . . . 
         . . 2 5 5 b b . 
         . . 2 5 b c b b 
-        . . 2 b b b b b 
+        . . . b b b b b 
         . . . . b b b c 
         . . . . . b b . 
         `,img`
         2 . . . . . . . 
         2 2 2 2 . . . . 
-        . 2 4 4 2 . . . 
-        . . 2 4 5 b b . 
+        . 4 4 5 . . . . 
+        . . 2 5 5 b b . 
         . . 2 5 b c b b 
         . . 2 b b b b b 
         . . . . b b b c 
@@ -1046,13 +1046,13 @@ game.onUpdateInterval(2000, function () {
         2 4 4 4 2 . . . 
         . . 2 5 5 b b . 
         . . 2 5 b c b b 
-        . . 2 b b b b b 
+        . . . b b b b b 
         . . . . b b b c 
         . . . . . b b . 
         `,img`
         2 . . . . . . . 
         2 2 2 2 . . . . 
-        . 2 4 4 2 . . . 
+        . 4 4 4 . . . . 
         . . 2 4 5 b b . 
         . . 2 5 b c b b 
         . . 2 b b b b b 
@@ -1060,29 +1060,29 @@ game.onUpdateInterval(2000, function () {
         . . . . . b b . 
         `,img`
         2 . . . . . . . 
-        . 4 2 2 . . . . 
+        . 4 4 2 . . . . 
         . 2 4 4 2 . . . 
         . . 2 5 5 b b . 
         . . 2 5 b c b b 
-        . . 2 b b b b b 
+        . . . b b b b b 
         . . . . b b b c 
         . . . . . b b . 
         `,img`
         2 2 . . . . . . 
-        . 2 2 2 . . . . 
-        . 2 4 4 2 . . . 
-        . . 2 4 5 b b . 
+        . 2 4 2 . . . . 
+        . 2 4 5 . . . . 
+        . . 2 5 5 b b . 
         . . 2 5 b c b b 
         . . 2 b b b b b 
         . . . . b b b c 
         . . . . . b b . 
         `,img`
-        . 2 2 . . . . . 
+        . 2 4 . . . . . 
         . . 4 2 . . . . 
         . 2 4 4 2 . . . 
         . . 2 5 5 b b . 
         . . 2 5 b c b b 
-        . . 2 b b b b b 
+        . . . b b b b b 
         . . . . b b b c 
         . . . . . b b . 
         `],
