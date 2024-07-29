@@ -5,7 +5,7 @@
         "device": "*",
         "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "darts": "*"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
